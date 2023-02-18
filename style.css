@@ -100,6 +100,7 @@ div h2{
 
 }
 
+
 .map{
     margin: 20px;
 }
@@ -145,6 +146,7 @@ footer img {
     flex-direction: column;
     gap: 20px;
    
+   
     
    
 }
@@ -153,6 +155,8 @@ footer img {
     font-size: 1.3rem;
     
 }
+
+
 
 #contacto{
     display: flex;
@@ -363,4 +367,134 @@ footer img {
     
 
     
+}
+
+
+@media (max-height:500px){
+    .medio {
+        background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(imagenes/fondo5.jpg) ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height:90vh;
+        
+    }
+
+    .medio div{
+    
+        width: 100%;
+         padding-top: 100px;
+         padding-left: 20px;
+         padding-right: 100px;
+         color: whitesmoke;
+     }
+     
+     .medio div h1{
+         
+        line-height: 60px;
+        font-size: 3rem;
+      }
+    
+     .medio div h4{
+        font-size: 15px;
+        line-height: 25px;
+     }
+
+     .el-taller-2{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+      }
+     
+      .el-taller{
+         display: flex;
+         
+        
+         gap: 0px;
+         padding-bottom: 40px;
+         margin: 0px;
+     }
+     
+     .imagenNosotros img {
+        
+         width: 50vw;
+         height: auto;
+         margin: 0px;
+         
+     }
+
+     .ubicacion {
+       
+     }
+     .ubicacion-largo{
+         
+     }
+     .lodemas{
+         display:flex;
+        flex-direction: column;
+         margin: 0px;
+         padding: 0px;
+         gap: 0px;
+     }
+     .notitle{
+         display: flex;
+         flex-direction: column;
+        
+     }
+     
+     .texto{
+         height: auto;
+         width: 100vw;   
+         margin: 0px;
+         text-align: center;
+         justify-items: center;
+       
+     }
+     
+     .texto h3{
+         line-height: 40px;
+         font-size: 1rem;
+         
+         
+     }
+     .map{
+        width: 100vw;
+     }
+
+     footer{
+        height: 400px;
+        background-color: rgb(0,78,120);
+        
+      
+    }
+    
+    footer img {
+        margin: auto;
+        display: flex;
+        vertical-align: center;
+        justify-content: center;
+        width: 10rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .generalFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        color: whitesmoke; 
+          
+    }
+
+    #contacto .redesSociales h4{
+        font-size: 1rem;
+        
+    }
+    #contacto .redesSociales {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 50px;
+    }
+
 }
