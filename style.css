@@ -145,14 +145,20 @@ footer img {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-decoration: none;
    
    
     
    
 }
 
-#contacto .redesSociales h4{
+#contacto .redesSociales a{
     font-size: 1.3rem;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: justify;
+    justify-content: center;
+    
     
 }
 
