@@ -8,7 +8,7 @@
 
 a img {
     width: 15rem;
-    margin: 0 150px 0 0;
+    margin: 0 130px 0 0;
 }
 
 .navbar-nav{
@@ -497,4 +497,85 @@ footer img {
         padding-top: 50px;
     }
 
+}
+
+@media (max-width:1400px){
+    a img {
+        width: 10rem;
+        margin: 0 20px 0 0;
+    }
+
+    .ubicacion {
+       
+    }
+    .ubicacion-largo{
+        
+    }
+    .lodemas{
+        display:flex;
+       flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
+    }
+    .notitle{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .texto{
+        height: auto;
+        width: 100vw;   
+        margin: 0px;
+        text-align: center;
+        justify-items: center;
+      
+    }
+    
+    .texto h3{
+        line-height: 40px;
+        font-size: 1rem;
+        
+        
+    }
+    .map{
+       width: 100vw;
+    }
+
+    footer{
+        height: 400px;
+        background-color: rgb(0,78,120);
+        
+      
+    }
+    
+    footer img {
+        margin: auto;
+        display: flex;
+        vertical-align: center;
+        justify-content: center;
+        width: 10rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .generalFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        color: whitesmoke; 
+          
+    }
+
+    #contacto .redesSociales h4{
+        font-size: 1rem;
+        
+    }
+    #contacto .redesSociales {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 50px;
+    }
 }
