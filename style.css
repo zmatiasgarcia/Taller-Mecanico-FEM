@@ -152,14 +152,20 @@ footer img {
    
 }
 
-#contacto .redesSociales a{
-    font-size: 1.3rem;
+#contacto .redesSociales a, #contacto .redesSociales h4{
+    font-size: 1.4rem;
     text-decoration: none;
     color: whitesmoke;
     text-align: justify;
     justify-content: center;
+     font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     
     
+}
+
+#contacto .redesSociales i{
+    font-size: 1rem;
 }
 
 
@@ -356,13 +362,23 @@ footer img {
         flex-direction: column;
         gap: 0px;
         color: whitesmoke; 
+        
           
     }
 
-    #contacto .redesSociales h4{
-        font-size: 1rem;
+    #contacto .redesSociales a{
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: justify;
+        justify-content: center;
+         font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        
         
     }
+
+    
     #contacto .redesSociales {
         display: flex;
         flex-direction: column;
