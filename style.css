@@ -118,66 +118,11 @@ div h2{
     font-size: 1.4rem;
 }
 
-footer{
-    height: 30vh;
-    background-color: rgb(0,78,120);
-    
-  
-}
-
-footer img {
-  
-    width: 15rem;
-}
-
-.generalFooter{
-    display: flex;
-    gap: 200px;
-    color: whitesmoke; 
-    display: flex;
-    justify-content: center;
-    vertical-align: center;
-    align-items: center;
-       
-}
-
-#contacto .redesSociales {
-
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-decoration: none;
-   
-   
-    
-   
-}
-
-#contacto .redesSociales a, #contacto .redesSociales h4{
-    font-size: 1.4rem;
-    text-decoration: none;
-    color: whitesmoke;
-    text-align: justify;
-    justify-content: center;
-     font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    
-    
-}
-
-#contacto .redesSociales i{
-    font-size: 1rem;
+footer a i {
+    font-size: 30px;
 }
 
 
-
-#contacto{
-    display: flex;
-    justify-content: center;
-    vertical-align: center;
-    align-items: center;
-}
 
 
 .taller-largo{
@@ -350,56 +295,11 @@ footer img {
         
     }
 
-    footer{
-        height: 400px;
-        background-color: rgb(0,78,120);
-        
-      
-    }
-    
-    footer img {
-        margin: auto;
-        display: flex;
-        vertical-align: center;
-        justify-content: center;
-        width: 10rem;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .generalFooter{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        color: whitesmoke; 
-      
-          
-    }
-
-    #contacto .redesSociales a{
-        font-size: 1.4rem;
-        text-decoration: none;
-        color: whitesmoke;
-        text-align: justify;
-        justify-content: center;
-         font-family: 'Lato', sans-serif;
-        font-family: 'Roboto', sans-serif;
-       
-        
+    footer a i{
+        font-size: 1.25rem;
     }
 
     
-    #contacto .redesSociales {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 50px;
-       
-
-  
-    
-
-    }   
 }
 
 
@@ -494,41 +394,6 @@ footer img {
         width: 100vw;
      }
 
-     footer{
-        height: 400px;
-        background-color: rgb(0,78,120);
-        
-      
-    }
-    
-    footer img {
-        margin: auto;
-        display: flex;
-        vertical-align: center;
-        justify-content: center;
-        width: 10rem;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .generalFooter{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        color: whitesmoke; 
-          
-    }
-
-    #contacto .redesSociales h4{
-        font-size: 1rem;
-        
-    }
-    #contacto .redesSociales {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 50px;
-    }
 
 }
 
@@ -576,39 +441,5 @@ footer img {
        width: 100vw;
     }
 
-    footer{
-        height: 400px;
-        background-color: rgb(0,78,120);
-        
-      
-    }
-    
-    footer img {
-        margin: auto;
-        display: flex;
-        vertical-align: center;
-        justify-content: center;
-        width: 10rem;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .generalFooter{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        color: whitesmoke; 
-          
-    }
-
-    #contacto .redesSociales h4{
-        font-size: 1rem;
-        
-    }
-    #contacto .redesSociales {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 50px;
-    }
+   
 };
