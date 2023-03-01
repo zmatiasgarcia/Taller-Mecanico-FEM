@@ -60,9 +60,14 @@ a img {
  }
 
 .el-taller{
+    display: flex;
     gap: 0px;
     padding-bottom: 40px;
     margin-right: 200px;
+}
+
+.el-taller .el-taller-texto p{
+    font-size: 20px;
 }
 
 .imagenNosotros img {
@@ -234,11 +239,7 @@ footer a i {
         line-height: 25px;
      }
   
-     .el-taller-2{
-       display: flex;
-       flex-direction: column;
-       margin: 0px;
-     }
+     
     
      .el-taller{
         display: flex;
@@ -255,6 +256,8 @@ footer a i {
         margin: 0px;
         
     }
+
+   
     
     .ubicacion {
        
@@ -333,16 +336,11 @@ footer a i {
         line-height: 25px;
      }
 
-     .el-taller-2{
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-      }
+     
      
       .el-taller{
          display: flex;
-         
-        
+         flex-direction: row;
          gap: 0px;
          padding-bottom: 40px;
          margin: 0px;
@@ -402,6 +400,7 @@ footer a i {
         width: 10rem;
         margin: 0 20px 0 0;
     }
+    
 
     .ubicacion {
        
@@ -420,6 +419,22 @@ footer a i {
         display: flex;
         flex-direction: column;
        
+    }
+
+    .el-taller{
+        display: flex;
+       direction: column;
+        gap: 0px;
+        padding-bottom: 40px;
+        margin: 0px;
+    }
+    
+    .imagenNosotros img {
+       
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        
     }
     
     .texto{
