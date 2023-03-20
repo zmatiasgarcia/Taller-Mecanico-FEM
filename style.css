@@ -67,12 +67,12 @@ a img {
 }
 
 .el-taller .el-taller-texto p{
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .imagenNosotros img {
-    height: 75vh;
-    width: 30vw;
+    height: 55vh;
+    width: 25vw;
     margin-left: 200px;
     
 }
@@ -200,10 +200,7 @@ footer a i {
 
 
 @media (max-width:700px){
-   *{
-    margin: 0px;
-    padding: 0px;
-   }
+   
 
    a img {
     width: 15rem;
@@ -253,7 +250,9 @@ footer a i {
     .imagenNosotros img {
        
         width: 100%;
-        margin: 0px;
+        padding-bottom: 50px;
+       
+       
         
     }
 
